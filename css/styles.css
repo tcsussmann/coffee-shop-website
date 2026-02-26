@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', Helvetica, sans-serif;
+    backgound: #faf7f2;
+    color: #1f1f1f;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: min(1100px, 90%);
+    margin: 0 auto;
+}
+
+.section {
+    padding: 48px 0;
+
+}
+
+.section-alt {
+    background-color: #fff;
+}
+
+.site-header {
+    background-color: #faf7f2;
+    border-bottom: 1px solid #ddd7ce;
+    position: sticky;
+    top: 0;
+    box-shadow: 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 14px 0;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links   a {
+    padding: 6px 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+
+.btn {
+    background-color: #2a1d12;
+    color: #fff;
+    padding: 10px 10px;
+}
+
+.dtn-outline {
+    background-color: transparent;
+    border: 2px solid #2a1d12;
+    color: #2a1d12;
+}
+
+.hero {
+    padding: 56px 0;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+
+.hero-actions {
+    display: flex;
+    gap: 12px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.card-body {
+    font-weight: bold;
+}
+
+.two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.map-box {
+    background: #eee;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+}
+.site-footer {
+    background-color: #2a1d12;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+   
+    
